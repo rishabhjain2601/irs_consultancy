@@ -28,13 +28,13 @@ const Navbar = () => {
                                 <button onClick={()=>{navigate('/')}} class={`${location.pathname==="/"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `} aria-current="page">Home</button>
                             </li>
                             <li>
-                                <button onClick={()=>{navigate('/our_mission')}} class={`${location.pathname==="/our_mission"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `}>Our Mission</button>
+                                <button onClick={()=>{navigate('/skills_we_hire')}} class={`${location.pathname==="/skills_we_hire"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `}>Skills We Hire</button>
+                            </li>
+                            <li>
+                                <button onClick={()=>{navigate('/ways_of_working')}} class={`${location.pathname==="/ways_of_working"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `}>Ways of Working</button>
                             </li>
                             <li>
                                 <button onClick={()=>{navigate('/why_choose_us')}} class={`${location.pathname==="/why_choose_us"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `}>Why Choose Us</button>
-                            </li>
-                            <li>
-                                <button onClick={()=>{navigate('/our_clients')}} class={`${location.pathname==="/our_clients"?'bg-blue-700 md:text-blue-700 max-md:text-white ':'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'} md:p-0 block py-2 my-1 px-3 w-full rounded md:bg-transparent `}>Our Clients</button>
                             </li>
                             <button type="button" onClick={()=>{navigate('/contact_us')}} class="text-white bg-blue-700 cursor-pointer hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Contact Us</button>
                         </ul>

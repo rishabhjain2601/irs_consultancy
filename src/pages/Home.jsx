@@ -21,14 +21,25 @@ const Home = () => {
             </div>
 
 
-            <h2 class="my-10 font-bold text-3xl text-center w-full md:mt-[280px]">Trusted by</h2>
+            <h2 class="my-10 font-bold text-3xl text-center w-full md:mt-[280px]">Pioneers in</h2>
 
-            <div class="flex flex-wrap p-10 py-2 w-full">
-                <img src="Group 141.svg" alt="" class="mx-auto py-3 lg:px-2 px-8" />
-                <img src="Group 142.svg" alt="" class="mx-auto py-3 lg:px-2 px-8" />
-                <img src="Group 144.svg" alt="" class="mx-auto py-3 lg:px-2 px-8" />
-                <img src="Group 145.svg" alt="" class="mx-auto py-3 lg:px-2 px-8" />
-                <img src="Group 146.svg" alt="" class="mx-auto py-3 lg:px-2 px-8" />
+            <div class="flex flex-wrap p-10 py-2 mx-auto w-fit">
+                <div class="w-[50%] lg:flex">
+                    <div class="flex text-xl text-nowrap mx-auto ml-0">
+                        <img src="Group 141.svg" alt="" class="mx-auto py-3 pl-5" /><span class="py-4 px-4">Leadership Hiring</span>
+                    </div>
+                    <div class="flex text-xl text-nowrap mx-auto ml-0 px-5">
+                        <img src="Group 142.svg" alt="" class="mx-auto py-3" /><span class="py-4 max-lg:px-5 pl-5">C-Suite Hiring</span>
+                    </div>
+                </div>
+                <div class="w-[50%] lg:flex">
+                    <div class="flex text-xl text-nowrap mx-auto ml-0 px-5">
+                        <img src="Group 144.svg" alt="" class="mx-auto py-3" /><span class="py-4 px-4">End To End Hiring</span>
+                    </div>
+                    <div class="flex text-xl text-nowrap mx-auto ml-0 px-5">
+                        <img src="Group 145.svg" alt="" class="mx-auto py-3 max-[1024px]:pl-[6%]" /><span class="py-4 px-4">Data-science Hiring</span>
+                    </div>
+                </div>
             </div>
             {/* <br /> */}
             <h2 class="font-bold text-3xl text-center w-full mt-[120px]">ABOUT US</h2>
@@ -65,9 +76,9 @@ const Home = () => {
                     </aside>
                 </div>
             </div>
-            
+
             <footer>
-                <Footer/>
+                <Footer />
             </footer>
         </div>
     )

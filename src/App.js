@@ -1,10 +1,10 @@
 import './App.css';
 import Home from './pages/Home';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Mission from './pages/Mission';
 import WhyChooseUs from './pages/WhyChooseUs';
-import OurClients from './pages/OurClients';
 import ContactUs from './pages/ContactUs';
+import SkillsWeHire from './pages/SkillsWeHire';
+import WaysOfWorking from './pages/WaysOfWorking';
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" index element={<Home />} />
-          <Route path="/our_mission" index element={<Mission />} />
+          <Route path="/skills_we_hire" index element={<SkillsWeHire/>} />
+          <Route path="/ways_of_working" index element={<WaysOfWorking/>} />
           <Route path="/why_choose_us" index element={<WhyChooseUs/>} />
-          <Route path="/our_clients" index element={<OurClients/>} />
           <Route path="/contact_us" index element={<ContactUs/>} />
         </Routes>
       </Router>

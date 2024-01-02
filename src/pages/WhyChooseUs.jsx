@@ -14,28 +14,28 @@ const WhyChooseUs = () => {
                 <br />
                 <div class="md:block flex md:mt-6 md:relative mx-auto w-full">
                     <div class='md:flex mt-16 text-center font-bold '>
-                        <div class='rounded-full w-20 h-20 bg-white md:float-left mx-auto shadow-lg'>
+                        <div class='rounded-full w-20 h-20 bg-white md:float-left mx-auto shadow-lg max-md:mb-24'>
                             <img src="clock.svg" alt="" class='m-auto md:mt-4 max-md:pt-4 mb-6' />
-                            <span class='text-nowrap text-center -ml-4'>Always On Time</span>
+                            <span class='text-nowrap text-center -ml-4'>Quick Closures</span>
                         </div>
-                        <div class='rounded-full w-20 h-20 bg-white md:float-right mx-auto shadow-lg'>
-                            <img src="sheild.svg" alt="" class='m-auto md:mt-4 mt-16 md:h-14 h-[70px] max-md:pt-4 mb-5 md:mb-3' />
-                            <span class='text-nowrap -ml-14'>Confidentiality Maintained</span>
+                        <div class='rounded-full w-20 h-20 bg-white md:float-right mx-auto shadow-lg mb-10'>
+                            <img src="sheild.svg" alt="" class='m-auto md:mt-4 mt-16 md:h-14 h-[70px] max-md:pt-4 mb-4 md:mb-3' />
+                            <span class='text-nowrap -ml-14'>End To End Recruitment <br /> Solution</span>
                         </div>
                         <div class='rounded-full w-20 h-20 bg-white mx-auto shadow-lg'>
-                            <img src="Work.svg" alt="" class='m-auto md:mt-2 mt-16 max-md:pt-2 mb-4' />
-                            <span class='text-nowrap -ml-2'>Hard Working</span>
+                            <img src="Work.svg" alt="" class='m-auto md:mt-2 mt-16 max-md:pt-2 mb-[14px]' />
+                            <span class='text-nowrap -ml-4'>Customized Plans</span>
                         </div>
                     </div>
 
                     <div class='md:flex md:mt-24 mt-16 ml-auto mr-10 text-center font-bold md:mx-auto'>
-                        <div class='rounded-full w-20 h-20 bg-white md:float-right mx-auto shadow-lg'>
+                        <div class='rounded-full w-20 h-20 bg-white md:float-right mx-auto shadow-lg max-md:mb-24'>
                             <img src="price.svg" alt="" class='m-auto md:mt-2 max-md:pt-2 mb-4 md:mb-3' />
-                            <span class='text-nowrap -ml-2'>Lowest Rates</span>
+                            <span class='text-nowrap -ml-3'>Excellent <br /> Communication & <br />Coordination</span>
                         </div>
                         <div class='rounded-full w-20 h-20 md:float-left bg-white mx-auto shadow-lg'>
                             <img src="Profit.svg" alt="" class='m-auto md:mt-2 max-md:pt-3 mt-16 md:mb-4 mb-3' />
-                            <span class='text-nowrap -ml-10'>Maximum Profitability</span>
+                            <span class='text-nowrap -ml-10 mt-2'>Optimum Profitability</span>
                         </div>
                         <div class='rounded-full w-20 h-20 bg-white mx-auto shadow-lg'>
                             <img src="Class.svg" alt="" class='m-auto md:mt-2 mt-16 max-md:pt-2 mb-4' />
