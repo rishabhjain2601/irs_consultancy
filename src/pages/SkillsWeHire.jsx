@@ -10,8 +10,8 @@ const SkillsWeHire = () => {
             </header>
 
             <div class="top-0 align-middle text-lg my-[6rem]">
-                <h1 class="text-6xl font-bold text-center font-sans md:mt-[6rem] mt-32 mx-auto">Skills We Hire...</h1>
-                <h1 class="text-2xl font-medium text-center font-sans md:mt-6 mx-auto">We support hiring of wide range of below mentioned skills -</h1>
+                <h1 class="text-6xl font-bold text-center font-sans md:mt-[6rem] px-4 mt-32 mx-auto">Skills We Hire...</h1>
+                <h1 class="text-2xl font-medium text-center font-sans md:mt-6 px-4 mx-auto">We support hiring of wide range of below mentioned skills -</h1>
                 <div class='justify-center mt-7 '>
                     <div class='flex justify-center mt-3'>
                         <span class='text-lg font-bold bg-white px-4 py-2 rounded-full shadow-lg'>IT Skills</span>

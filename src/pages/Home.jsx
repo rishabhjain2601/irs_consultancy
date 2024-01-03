@@ -11,20 +11,20 @@ const Home = () => {
                 <Navbar />
             </header>
 
-            <h1 class="text-5xl font-bold font-sans pt-40 ml-[5%]">IRS <br />Consultancy</h1>
+            <h1 class="text-5xl font-bold font-sans md:pt-40 pt-20 ml-[5%]">IRS <br />Consultancy</h1>
             <h2 class='font-bold text-xl mt-2 ml-[5%]'>Your Premier Recruitment Partner</h2>
 
             <p class='font-medium text-lg mt-6 md:w-[40%] w-[80%] ml-[5%]'>At IRS Consultancy, we understand that finding the perfect talent for your organization is more than just a recruitment process, it's about securing the future success of your business. As a leading recruitment consultancy in India, we specialize in providing <span class='text-[#407BFF]'>tailored solutions</span> to meet your <span class='text-[#407BFF]'>unique staffing needs.</span></p>
-            <button class="bg-[#407BFF] ml-[5%] px-3 py-2 cursor-pointer font-normal z-2 absolute hover:bg-[#4059ff] mt-8 rounded-full text-white" onClick={() => { navigate('/hi') }}>Contact Us</button>
+            <button class="bg-[#407BFF] ml-[5%] px-3 py-2 cursor-pointer font-normal z-2 absolute hover:bg-[#4059ff] mt-8 rounded-full text-white" onClick={() => { navigate('/contact_us') }}>Contact Us</button>
             <div class="md:w-[30%]">
-                <img src="Group 138.svg" alt="" class="md:absolute right-0 top-0 md:mt-[120px] ml-[24%] max-md:w-[70%] md:ml-0 z-2 w-[500px] h-auto md:mr-10" />
+                <img src="Group 138.svg" alt="" class="md:absolute right-0 mt-4 top-0 md:mt-[120px] ml-[24%] max-md:w-[70%] md:ml-0 z-2 w-[500px] h-auto md:mr-10" />
             </div>
 
 
             <h2 class="my-10 font-bold text-3xl text-center w-full md:mt-[280px]">Pioneers in</h2>
 
-            <div class="flex flex-wrap p-10 py-2 mx-auto w-fit text-[#407BFF] font-medium">
-                <div class="w-[50%] lg:flex">
+            <div class="sm:flex flex-wrap p-10 py-2 mx-auto w-fit text-[#407BFF] font-medium">
+                <div class="w-[50%] lg:flex ">
                     <div class="flex text-xl text-nowrap mx-auto ml-0">
                         <img src="Group 141.svg" alt="" class="mx-auto py-3 pl-5" /><span class="py-4 px-4">Leadership Hiring</span>
                     </div>
@@ -32,12 +32,12 @@ const Home = () => {
                         <img src="Group 142.svg" alt="" class="mx-auto py-3" /><span class="py-4 max-lg:px-5 pl-5">C-Suite Hiring</span>
                     </div>
                 </div>
-                <div class="w-[50%] lg:flex">
-                    <div class="flex text-xl text-nowrap mx-auto ml-0 px-5">
-                        <img src="Group 144.svg" alt="" class="mx-auto py-3" /><span class="py-4 px-4">End To End Hiring</span>
+                <div class="w-[50%] lg:flex ">
+                    <div class="flex text-xl text-nowrap mx-auto ml-0 px-4">
+                        <img src="Group 144.svg" alt="" class="mx-auto py-3 " /><span class="py-4 px-4">End To End Hiring</span>
                     </div>
                     <div class="flex text-xl text-nowrap mx-auto ml-0 px-2">
-                        <img src="Group 145.svg" alt="" class="mx-auto py-3 max-[1024px]:pl-[6%]" /><span class="py-4 px-4">Niche Skills Hiring</span>
+                        <img src="Group 145.svg" alt="" class="mx-auto py-3 max-[1024px]:pl-[5%] max-[640px]:pl-2" /><span class="py-4 px-4">Niche Skills Hiring</span>
                     </div>
                 </div>
             </div>
