@@ -11,15 +11,15 @@ const Home = () => {
                 <Navbar />
             </header>
             <div className='md:flex'>
-                <div className='md:w-[70%] w-[90%]'>
+                <div className='md:w-[65%] w-[90%]'>
                     <h1 className="text-4xl font-bold text-wrap font-sans md:pt-40 pt-20 ml-[5%]">Indian Recruitment Services</h1>
-                    <h2 className='font-bold text-xl mt-3 ml-[5%]'>Your Premier Recruitment Partner</h2>
+                    <h2 className='font-bold text-xl mt-5 ml-[5%]'>Your Premier Recruitment Partner</h2>
 
-                    <p className='font-medium text-lg mt-6  md:max-w-[60%] ml-[5%]'>At Indian Recruitment Services, we understand that finding the perfect talent for your organization is more than just a recruitment process, it's about securing the future success of your business. As a leading recruitment consultancy in India, we specialize in providing <span className='text-[#407BFF]'>tailored solutions</span> to meet your <span className='text-[#407BFF]'>unique staffing needs.</span></p>
+                    <p className='font-medium text-lg mt-12  md:max-w-[80%] ml-[5%]'>At Indian Recruitment Services, we understand that finding the perfect talent for your organization is more than just a recruitment process, it's about securing the future success of your business. As a leading recruitment consultancy in India, we specialize in providing <span className='text-[#407BFF]'>tailored solutions</span> to meet your <span className='text-[#407BFF]'>unique staffing needs.</span></p>
                     {/* <button className="bg-[#407BFF] ml-[5%] px-3 py-2 cursor-pointer font-normal z-2 absolute hover:bg-[#4059ff] mt-8 rounded-full text-white" onClick={() => { navigate('/contact_us') }}>Contact Us</button> */}
                 </div>
-                <div className="md:w-[400px] mt-[170px]">
-                    <img src="Group 138.svg" alt="" className=" right-0 mt-4 mx-[10%] top-0 md:my-auto max-md:w-[70%] md:ml-0 z-2 w-full h-auto md:mr-10" />
+                <div className="md:w-[400px] md:mt-[150px] mr-10">
+                    <img src="Group 138.svg" alt="" className=" right-0 mt-4 mx-[10%] mr-[200px] top-0 md:my-auto max-md:w-[70%] md:ml-0 z-2 w-full h-auto md:mr-10" />
                 </div>
             </div>
             <h2 className="my-10 font-bold text-3xl text-center w-full md:mt-[90px]">Pioneers in</h2>
