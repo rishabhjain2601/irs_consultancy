@@ -22,9 +22,9 @@ const Home = () => {
                     <img src="Group 138.svg" alt="" className=" right-0 mt-4 mx-[10%] mr-[200px] top-0 md:my-auto max-md:w-[70%] md:ml-0 z-2 w-full h-auto md:mr-10" />
                 </div>
             </div>
-            <h2 className="my-10 font-bold text-3xl text-center w-full md:mt-[90px]">Pioneers in</h2>
+            <h2 className="my-10 font-bold text-3xl text-center w-full md:mt-[70px]">Pioneers in</h2>
 
-            <div className="sm:flex flex-wrap p-10 py-2 mx-auto w-fit text-[#407BFF] font-medium">
+            <div className="sm:flex flex-wrap px-10 mx-auto w-fit text-[#407BFF] font-medium">
                 <div className="w-[50%] lg:flex ">
                     <div className="flex text-xl text-nowrap mx-auto ml-0">
                         <img src="Group 141.svg" alt="" className="mx-auto py-3 pl-5" /><span className="py-4 px-4">Leadership Hiring</span>
@@ -43,10 +43,10 @@ const Home = () => {
                 </div>
             </div>
             {/* <br /> */}
-            <h2 className="font-bold text-3xl text-center w-full mt-[120px]">ABOUT US</h2>
+            <h2 className="font-bold text-3xl text-center w-full mt-12 md:mt-[90px]">ABOUT US</h2>
             <p className="text-center mt-7 text-lg mx-auto max-md:w-[80%] w-[50%]">We provide hiring solutions that are specially crafted to streamline the recruitment journey for your company. From identifying the right candidates to conducting thorough assessments, we bring you the best talent quickly and efficiently. </p>
 
-            <div className="flex pt-[10px]">
+            <div className="flex mt-2 md:mt-0">
                 <div className="w-[55%] my-auto md:block hidden">
                     <img src="illustration.svg" alt="" className="hidden md:block md:w-full h-auto bottom-0" />
                 </div>

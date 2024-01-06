@@ -16,8 +16,9 @@ const ContactUs = () => {
                         <h2><u>Contact Details</u></h2>
                         <div className="my-4 mx-0 md:text-[1.2rem] text-[1rem] flex flex-wrap">
                             <div className="flex float-left pt-4">
-                                <img src="call.svg" alt="" className="md:h-10 h-6 max-md:mt-[5px]" /> <span className="mr-8 ml-1 font-semibold text-nowrap">+91 9355444355</span>
-                            </div>
+                               <a href='tel:+919355444355' className='flex'>
+                                    <img src="call.svg" alt="" className="md:h-10 h-6 max-md:mt-[5px]" /> <span className="mr-8 ml-1 font-semibold text-nowrap">+91 9355444355</span>
+                               </a>                </div>
                             <div className="flex float-right pt-4">
                                 <a href="mailto:contactus@indianrecruitmentservices.com" className="mr-4 ml-1 font-semibold flex"> <img src="e-mail.svg" alt="" className="md:h-9 h-5 max-md:mt-2 mr-2" /><span>contactus@indianrecruitmentservices.com </span>
                                 </a>
