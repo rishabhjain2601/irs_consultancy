@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <div className=" flex flex-wrap justify-center">
-                <img src="call.svg" alt="" /> <span className="mr-8 ml-1 font-bold">+91 99999 99999</span>
+                <img src="call.svg" alt="" /> <span className="mr-8 ml-1 font-bold">+91 9355444355</span>
                 <a href="mailto:contactus@indianrecruitmentservices.com" className="mr-4 ml-1 flex font-bold">
                     <img src="e-mail.svg" alt="" className='mr-2' /> contactus@indianrecruitmentservices.com</a>
             </div>
