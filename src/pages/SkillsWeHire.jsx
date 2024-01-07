@@ -76,7 +76,7 @@ const SkillsWeHire = () => {
                     </div>
                             <b className='float-right mr-[12%]'>...And Many More</b>
                 </div>
-                <div className='justify-center mt-10'>
+                <div className='justify-center mt-16 md:mt-10'>
                     <div className='flex justify-center mt-3'>
                         <span className='text-lg font-bold bg-white px-4 py-2 rounded-full shadow-lg'>Non-IT Skills</span>
                     </div>

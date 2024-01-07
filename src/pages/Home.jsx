@@ -15,7 +15,7 @@ const Home = () => {
                     <h1 className="text-4xl font-bold text-wrap font-sans md:pt-40 pt-20 ml-[5%]">Indian Recruitment Services</h1>
                     <h2 className='font-bold text-xl mt-5 ml-[5%]'>Your Premier Recruitment Partner</h2>
 
-                    <p className='font-medium text-lg mt-12  md:max-w-[80%] ml-[5%]'>At Indian Recruitment Services, we understand that finding the perfect talent for your organization is more than just a recruitment process, it's about securing the future success of your business. As a leading recruitment consultancy in India, we specialize in providing <span className='text-[#407BFF]'>tailored solutions</span> to meet your <span className='text-[#407BFF]'>unique staffing needs.</span></p>
+                    <p className='font-medium text-lg mt-12  md:max-w-[80%] ml-[5%]'>At Indian Recruitment Services, we understand that finding the perfect talent for your organization is more than just a recruitment process, it's about securing the future success of your business. As a leading recruitment consultancy in India, we specialize in providing <span className='text-[#3b74f0]'>tailored solutions</span> to meet your <span className='text-[#3b74f0]'>unique staffing needs.</span></p>
                     {/* <button className="bg-[#407BFF] ml-[5%] px-3 py-2 cursor-pointer font-normal z-2 absolute hover:bg-[#4059ff] mt-8 rounded-full text-white" onClick={() => { navigate('/contact_us') }}>Contact Us</button> */}
                 </div>
                 <div className="md:w-[400px] md:mt-[150px] mr-10">
@@ -44,7 +44,9 @@ const Home = () => {
             </div>
             {/* <br /> */}
             <h2 className="font-bold text-3xl text-center w-full mt-12 md:mt-[90px]">ABOUT US</h2>
-            <p className="text-center mt-7 text-lg mx-auto max-md:w-[80%] w-[50%]">We provide hiring solutions that are specially crafted to streamline the recruitment journey for your company. From identifying the right candidates to conducting thorough assessments, we bring you the best talent quickly and efficiently. </p>
+            <p className="text-center mt-7 text-lg mx-auto max-md:w-[80%] w-[50%]">We provide hiring solutions that are specially crafted to streamline the recruitment journey for your company. From identifying the right candidates to conducting thorough assessments, we bring you the best talent quickly and efficiently.
+                <br /><br />At IRS, our commitment is crystal clear: we aim to close any position shared with us <b className='text-[#3b74f0]'>within 2 weeks</b>. Recognizing the urgency and dynamism of the job market, we understand the critical importance of swift and effective recruitment. To meet this ambitious goal, we offer customized plans tailored to your unique needs. Our approach is not one-size-fits-all; instead, we collaborate closely with our clients to craft personalized solutions that align seamlessly with their hiring objectives. 
+            </p>
 
             <div className="flex mt-2 md:mt-0">
                 <div className="w-[55%] my-auto md:block hidden">
