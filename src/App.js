@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/Home';
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import WhyChooseUs from './pages/WhyChooseUs';
 import ContactUs from './pages/ContactUs';
 import SkillsWeHire from './pages/SkillsWeHire';
